@@ -39,4 +39,4 @@ services:
       - POSTGRES_DB=fable
     stdin_open: true
     tty: true
-    command: sh -c "./test.sh"
+    command: go run test/test.go
