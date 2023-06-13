@@ -16,6 +16,7 @@ Then run `docker compose up test` to run the test script i.e `test/test.go`
 
 ### Overview
 
+1. I'm using [golang-migrate](https://github.com/golang-migrate/migrate) to run schema migrations on Postgres.
 1. The test script sends requests to the `POST /log` API in the following format
 ```json
 {
