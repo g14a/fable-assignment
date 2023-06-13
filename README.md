@@ -27,3 +27,6 @@ Then run `docker compose up test` to run the test script i.e `test/test.go`
 }
 ```
 2. A `logs.txt` file gets generated on startup and the application flushes the logs to the db every 30 seconds.
+
+PS: I've tried running the application and sending a massive load of 100k requests per second and my machine broke. 
+Load testing took some time. I could only go until 10k requests per sec on my machine finally.
